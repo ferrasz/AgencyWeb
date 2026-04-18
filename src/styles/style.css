@@ -1,1 +1,41 @@
 @import url(./global.css);
+
+header{
+    display: flex; /*Para que o grupo fique ao lado do outro*/
+    justify-content: space-between; /*Colocar nas extremidades*/
+    align-items: center; /*Centralizar na vertical*/
+    padding: 30px; /*Espaçamento interno*/
+    border-bottom: 0.7px solid var(--color-gray-3);/*Borda inferior*/
+}
+
+.container-nav-header{
+    display: flex; /*Para que o grupo fique ao lado do outro*/
+    align-items: center; /*Centralizar na vertical*/
+    gap: 70px; /*Distancia entre elementos*/
+}
+
+.navigation-header ul{ /*So estilizara as tags que estiverem dentro de navigation-header*/
+    display: flex; /*Para que o grupo fique ao lado do outro*/
+    gap: 40px; /*Distancia entre elementos*/
+    list-style: none; /*Remove a bolinha*/
+}
+
+.navigation-header ul li a{
+    text-decoration: none; /*Decoracao de texto*/
+    color: var(--color-black); /*Cor do texto*/
+    font-family: var(--font-family-primary);
+}
+
+.navigation-header ul li .menu-active{
+    color: var(--color-blue);
+}
+
+.btn-header{
+    font-family: var(--font-family-primary); /*Altera a fonte*/
+    text-decoration: none; /*Decoração do texto*/
+    padding: 10px 20px; /*Espaçamento interno*/
+    color: var(--color-white); /*Cor da fonte*/
+    background-color: var(--color-blue); /*Cor de fundo*/
+    border-radius: 10px; /*Arredondamento das bordas*/
+    font-weight: var(--font-weight-button); /*Espessura da fonte*/
+}
