@@ -216,3 +216,26 @@ main{
     width: 445px;
     line-height: 27px;
 }
+
+.section-benefit{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-benefit{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+    padding: 60px 48px;
+    border-radius: 20px;
+}
+
+.card-benefit p{
+    width: 458px;
+}
+
+.card-benefit-secundary{
+    background-color: #F4F4F4;
+}
