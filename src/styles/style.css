@@ -107,3 +107,33 @@ main{
 .btn-secondary:hover{
     background-color: #e5e5e5;
 }
+
+/* ----------- SECTION SERVICES ----------- */
+
+.section-services{
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    justify-content: center;
+    padding: 30px 0;
+    gap: 25px;
+    border-bottom: 0.7 solid var(--color-gray-3);
+}
+
+.container-item-services{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: ;
+}
+
+.container-item-services h2{
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-h4);
+    font-size: var(--font-size-h4);
+}
+
+.container-item-services p{
+    font-family: var(--font-family-primary);
+    color: var(--color-gray-2);
+    font-size: var(--font-size-caption);
+}
