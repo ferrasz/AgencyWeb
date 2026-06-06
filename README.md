@@ -106,6 +106,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 Felipe Ferraz</a>
  <br> <br>
  
-[![Gmail Badge](https://img.shields.io/badge/-felipeferraz499@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:felipeferraz499@gmail.com)]
+![Gmail Badge](https://img.shields.io/badge/-felipeferraz499@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:felipeferraz499@gmail.com)
 
 ---
